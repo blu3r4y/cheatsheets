@@ -1,10 +1,13 @@
 ---
 title: conda
 layout: 2017/sheet
-updated: 2019-10-26
+updated: 2020-08-09
 intro: |
- [conda](https://conda.io/) is a package and environment manager for Python, R, Ruby, Lua, Scala, Java, JavaScript, C/C++, FORTRAN, and more.
+  [conda](https://conda.io/) is a package and environment manager for Python, R, Ruby, Lua, Scala, Java, JavaScript, C/C++, FORTRAN, and more.
 ---
+
+## Basics
+{: .-two-column}
 
 ### Getting Started
 
@@ -97,12 +100,12 @@ Exact package versions are specific to your operating system.
 | Comparison | `numpy>=1.11`         | `1.11.0` or higher                            |
 | Wildcard   | `numpy==1.11*`        | `1.11`, `1.11.1`, `1.11-dev`, etc.            |
 | OR         | `numpy=1.11.1|1.11.3` | `1.11.1`, `1.11.3`                            |
-| AND        | `numpy>=1.8,<2`       | `1.8`, `1.9`, but *not* `2.0`                 |
+| AND        | `numpy>=1.8,<2`       | `1.8`, `1.9`, but _not_ `2.0`                 |
 
 Use quotation marks when your specification contains a space or any of `>` `<` `|` `*`
 
-See Also
---------
+## Also see
+{: .-one-column}
 
 - [Conda Cheat Sheet](https://docs.conda.io/projects/conda/en/latest/user-guide/cheatsheet.html) _(docs.conda.io)_
 - [Conda Package Specification](https://docs.conda.io/projects/conda-build/en/latest/resources/package-spec.html) _(docs.conda.io)_
